@@ -13,6 +13,7 @@ import React from 'react'
 // import ChangeBG from './Components/ChangeBG'
 // import RoutingTest from './Components/RoutingTest'
 import RandomQuote from './Components/RandomQuote'
+import LoginRegistration from './Components/LoginRegistration'
 // import FileUploader from './Components/FileUploader'
 
 const App = () => {
@@ -32,7 +33,7 @@ const App = () => {
       {/* <RoutingTest /> */}
       <RandomQuote />
       {/* <FileUploader /> */}
-
+      <LoginRegistration />
     </div>
   )
 }
